@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Kort</title>
+		<link rel="stylesheet" href="/static/css/kort.css" type="text/css" />
+		<script src="/static/js/mootools-core-1.4.5-full-nocompat-yc.js"></script>
+		<script src="/static/js/modernizr.custom.39323.js"></script>
+		<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+		<script type="text/javascript" src="/static/js/kort.js"></script>
+	</head>
+	<body>
+		<div id="map" data-lon="{{ lon }}" data-lat="{{ lat }}"></div>
+		<h1>{{ address }}</h1>
+		<p id="attribution">
+			Kortdata &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, adressesøgning via <a href="http://nominatim.openstreetmap.org/">OSM Nominatim</a>, markøren er <a href="http://thenounproject.com/noun/fish/#icon-No638" target="_blank">Fish</a> fra The Noun Project
+		</p>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+html,
+body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+h1
+{
+	position: absolute;
+	top: .25em;
+	right: .5em;
+	margin: 0;
+	padding: .25em .5em;
+	background: rgba(0, 0, 0, .75);
+	font-size: 2em;
+	line-height: 1em;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited
+{
+	color: #bbb;
+}
+
+#map
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #222;
+}
+
+#attribution
+{
+	right: 2em;
+	bottom: 1em;
+	position: absolute;
+	padding: .5em 1em;
+	margin: 0;
+	background: rgba(0, 0, 0, .75);
+	font-size: .5em;
+	line-height: 1em;
+}
+
+/* Overriding some OpenLayers styles. */
+div.olControlZoom
+{
+	top: .5em !important;
+	left: 1em !important;
+}
+
+div.olControlZoom a
+{
+	background: rgba(0, 0, 0, .75) !important;
+}
