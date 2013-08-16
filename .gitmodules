@@ -1,0 +1,3 @@
+[submodule "static/js/openlayers"]
+	path = static/js/openlayers
+	url = https://github.com/openlayers/openlayers
